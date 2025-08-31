@@ -8,54 +8,54 @@
 
 @layer base {
   :root {
-    /* Light Theme - Professional Light Surfaces */
-    --background: 249 250 251; /* #F9FAFB - Light gray */
-    --foreground: 15 23 42; /* #0F172A - Slate 900 */
+    /* Light Theme - Professional Clean */
+    --background: 0 0% 98%; /* #FAFAFA - Clean light gray */
+    --foreground: 220 13% 18%; /* #2c2c2c - Dark charcoal */
     
-    --card: 255 255 255; /* #FFFFFF - Pure white */
-    --card-foreground: 15 23 42; /* #0F172A */
+    --card: 0 0% 100%; /* #FFFFFF - Pure white */
+    --card-foreground: 220 13% 18%; /* #2c2c2c */
     
-    --popover: 255 255 255;
-    --popover-foreground: 15 23 42;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
     
-    /* Brand Colors */
-    --primary: 37 99 235; /* #2563EB - Indigo 600 */
-    --primary-foreground: 255 255 255;
-    --primary-hover: 29 78 216; /* #1D4ED8 - Indigo 700 */
+    /* MikroTik-inspired Brand Colors */
+    --primary: 220 13% 18%; /* #2c2c2c - Charcoal gray */
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 220 13% 15%; /* Darker charcoal */
     
-    --accent: 34 197 94; /* #22C55E - Emerald 500 */
-    --accent-foreground: 255 255 255;
-    --accent-hover: 21 128 61; /* #15803D - Emerald 600 */
+    --accent: 191 100% 42%; /* #00d4ff - MikroTik cyan */
+    --accent-foreground: 220 13% 18%;
+    --accent-hover: 191 100% 35%; /* Darker cyan */
     
-    --secondary: 241 245 249; /* #F1F5F9 - Slate 100 */
-    --secondary-foreground: 15 23 42;
+    --secondary: 220 13% 95%; /* #F5F5F5 - Light gray */
+    --secondary-foreground: 220 13% 18%;
     
-    --muted: 248 250 252; /* #F8FAFC - Slate 50 */
-    --muted-foreground: 100 116 139; /* #64748B - Slate 500 */
+    --muted: 220 13% 96%; /* #F7F7F7 - Very light gray */
+    --muted-foreground: 220 9% 46%; /* #737373 - Medium gray */
     
-    --destructive: 239 68 68; /* #EF4444 - Red 500 */
-    --destructive-foreground: 255 255 255;
+    --destructive: 0 84% 60%; /* #EF4444 - Red */
+    --destructive-foreground: 0 0% 98%;
     
-    --border: 226 232 240; /* #E2E8F0 - Slate 200 */
-    --input: 226 232 240;
-    --ring: 37 99 235; /* Primary */
+    --border: 220 13% 91%; /* #E5E5E5 - Light border */
+    --input: 220 13% 91%;
+    --ring: 191 100% 42%; /* Cyan focus ring */
     
     /* Surface Variations */
-    --surface-primary: 255 255 255;
-    --surface-secondary: 248 250 252;
-    --surface-tertiary: 241 245 249;
+    --surface-primary: 0 0% 100%;
+    --surface-secondary: 220 13% 97%;
+    --surface-tertiary: 220 13% 95%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(37 99% 235% / 0.1), hsl(34 197% 94% / 0.1));
-    --gradient-hero: linear-gradient(135deg, hsl(37 99% 235% / 0.05), hsl(34 197% 94% / 0.05));
-    --gradient-card: linear-gradient(145deg, hsl(255 255 255), hsl(248 250 252));
+    --gradient-primary: linear-gradient(135deg, hsl(220 13% 96%), hsl(191 100% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 98%), hsl(191 100% 97%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 97%));
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(15 23% 42% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(15 23% 42% / 0.1), 0 2px 4px -1px hsl(15 23% 42% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(15 23% 42% / 0.1), 0 4px 6px -2px hsl(15 23% 42% / 0.05);
-    --shadow-xl: 0 20px 25px -5px hsl(15 23% 42% / 0.1), 0 10px 10px -5px hsl(15 23% 42% / 0.04);
-    --shadow-glow: 0 0 30px hsl(37 99% 235% / 0.15);
+    --shadow-sm: 0 1px 2px 0 hsl(220 13% 18% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 13% 18% / 0.1), 0 2px 4px -1px hsl(220 13% 18% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(220 13% 18% / 0.1), 0 4px 6px -2px hsl(220 13% 18% / 0.05);
+    --shadow-xl: 0 20px 25px -5px hsl(220 13% 18% / 0.1), 0 10px 10px -5px hsl(220 13% 18% / 0.04);
+    --shadow-glow: 0 0 30px hsl(191 100% 42% / 0.15);
     
     /* Animations */
     --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,54 +66,54 @@
   }
   
   .dark {
-    /* Dark Theme - Technical Dark Surfaces */
-    --background: 11 18 32; /* #0B1220 - Custom dark */
-    --foreground: 248 250 252; /* #F8FAFC - Light */
+    /* Dark Theme - MikroTik Professional Dark */
+    --background: 220 13% 9%; /* #171717 - Very dark charcoal */
+    --foreground: 0 0% 98%; /* #FAFAFA - Light */
     
-    --card: 15 23 42; /* #0F172A - Slate 900 */
-    --card-foreground: 248 250 252;
+    --card: 220 13% 11%; /* #1c1c1c - Dark card */
+    --card-foreground: 0 0% 98%;
     
-    --popover: 15 23 42;
-    --popover-foreground: 248 250 252;
+    --popover: 220 13% 11%;
+    --popover-foreground: 0 0% 98%;
     
     /* Brand Colors (Enhanced for dark) */
-    --primary: 99 102 241; /* #6366F1 - Indigo 500 (brighter) */
-    --primary-foreground: 15 23 42;
-    --primary-hover: 129 140 248; /* #818CF8 - Indigo 400 */
+    --primary: 0 0% 98%; /* Light for contrast */
+    --primary-foreground: 220 13% 9%;
+    --primary-hover: 0 0% 95%;
     
-    --accent: 52 211 153; /* #34D399 - Emerald 400 (brighter) */
-    --accent-foreground: 15 23 42;
-    --accent-hover: 110 231 183; /* #6EE7B7 - Emerald 300 */
+    --accent: 191 100% 50%; /* #00E0FF - Brighter cyan for dark */
+    --accent-foreground: 220 13% 9%;
+    --accent-hover: 191 100% 45%;
     
-    --secondary: 30 41 59; /* #1E293B - Slate 800 */
-    --secondary-foreground: 248 250 252;
+    --secondary: 220 13% 15%; /* #262626 - Dark gray */
+    --secondary-foreground: 0 0% 98%;
     
-    --muted: 30 41 59;
-    --muted-foreground: 148 163 184; /* #94A3B8 - Slate 400 */
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 60%; /* #999999 - Light gray for text */
     
-    --destructive: 248 113 113; /* #F87171 - Red 400 */
-    --destructive-foreground: 15 23 42;
+    --destructive: 0 84% 65%; /* #FF5757 - Lighter red for dark */
+    --destructive-foreground: 220 13% 9%;
     
-    --border: 51 65 85; /* #334155 - Slate 700 */
-    --input: 51 65 85;
-    --ring: 99 102 241;
+    --border: 220 13% 18%; /* #2D2D2D - Dark border */
+    --input: 220 13% 18%;
+    --ring: 191 100% 50%;
     
     /* Surface Variations */
-    --surface-primary: 15 23 42;
-    --surface-secondary: 30 41 59;
-    --surface-tertiary: 51 65 85;
+    --surface-primary: 220 13% 11%;
+    --surface-secondary: 220 13% 13%;
+    --surface-tertiary: 220 13% 15%;
     
     /* Gradients (Dark) */
-    --gradient-primary: linear-gradient(135deg, hsl(99 102% 241% / 0.1), hsl(52 211% 153% / 0.1));
-    --gradient-hero: linear-gradient(135deg, hsl(99 102% 241% / 0.05), hsl(52 211% 153% / 0.05));
-    --gradient-card: linear-gradient(145deg, hsl(15 23% 42%), hsl(30 41% 59%));
+    --gradient-primary: linear-gradient(135deg, hsl(220 13% 13%), hsl(191 100% 8%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 11%), hsl(191 100% 6%));
+    --gradient-card: linear-gradient(145deg, hsl(220 13% 11%), hsl(220 13% 13%));
     
     /* Shadows (Dark) */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.3);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -1px hsl(0 0% 0% / 0.2);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -2px hsl(0 0% 0% / 0.2);
     --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.4), 0 10px 10px -5px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 30px hsl(99 102% 241% / 0.2);
+    --shadow-glow: 0 0 30px hsl(191 100% 50% / 0.2);
   }
   
   * {
