@@ -1,8 +1,40 @@
-# Welcome to your Lovable project
+# Ahmed Sayed - Professional Portfolio
+
+A modern, responsive portfolio website showcasing cloud engineering expertise and professional experience.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/986ba32f-9ce3-458d-a68c-43b19f295da9
+
+## Features
+
+- **Professional Design**: Clean, modern aesthetic with technical theme
+- **Responsive Layout**: Mobile-first design that works on all devices  
+- **Dark/Light Mode**: Automatic theme switching with manual override
+- **SEO Optimized**: Structured data, meta tags, and semantic HTML
+- **Performance**: Optimized images, lazy loading, and efficient code
+- **Accessibility**: WCAG AA compliant with proper ARIA labels
+
+## Pages
+
+- **Home**: Hero section, skills overview, experience timeline, featured projects
+- **About**: Detailed bio, core values, and teaching mission
+- **Skills**: Technical expertise organized by category with proficiency levels
+- **Experience**: Professional timeline with achievements and impact metrics
+- **Projects**: Portfolio of real-world implementations with tech stacks
+- **Training**: Instructor services, testimonials, and learning outcomes
+- **Blog**: Technical articles and industry insights
+- **Contact**: Contact form with validation and direct communication options
+
+## Technology Stack
+
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **UI Components**: Radix UI primitives with custom design system
+- **Routing**: React Router v6
+- **Icons**: Lucide React
+- **Forms**: React Hook Form with validation
+- **Animations**: CSS transitions and transforms
+- **Build Tool**: Vite
 
 ## How can I edit this code?
 
